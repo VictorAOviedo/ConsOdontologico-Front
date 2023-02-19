@@ -1,0 +1,20 @@
+.container-fluid{
+    background-image: url('../../../../../assets/banner2.jpg');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.texto{ 
+    backdrop-filter: blur(5px);
+    background-color: #3466f166;
+    color: rgb(41, 43, 46);
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+}
