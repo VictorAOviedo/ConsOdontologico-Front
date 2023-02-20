@@ -11,6 +11,7 @@ import { BannerComponent } from './components/home/body/banner/banner.component'
 import { SomosComponent } from './components/home/body/somos/somos.component';
 import { EspecialidadesComponent } from './components/home/body/especialidades/especialidades.component';
 import { ContactoComponent } from './components/home/body/contacto/contacto.component';
+import { WhatsappComponent } from './components/home/body/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactoComponent } from './components/home/body/contacto/contacto.comp
     BannerComponent,
     SomosComponent,
     EspecialidadesComponent,
-    ContactoComponent
+    ContactoComponent,
+    WhatsappComponent
   ],
   imports: [
     BrowserModule,
