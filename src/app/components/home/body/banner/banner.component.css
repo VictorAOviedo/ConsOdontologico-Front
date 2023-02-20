@@ -10,7 +10,9 @@
 
 .texto{ 
     backdrop-filter: blur(5px);
-    background-color: #3466f166;
+    /*background-color: #3466f166;*/
+    /*background-color: #8adde566;*/
+    background-color: #0097ad66;
     color: rgb(41, 43, 46);
     padding: 2%;
 }
