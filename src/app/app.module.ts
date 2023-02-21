@@ -13,6 +13,7 @@ import { EspecialidadesComponent } from './components/home/body/especialidades/e
 import { ContactoComponent } from './components/home/body/contacto/contacto.component';
 import { WhatsappComponent } from './components/home/body/whatsapp/whatsapp.component';
 import { GaleriaComponent } from './components/home/body/galeria/galeria.component';
+import { TrabajosComponent } from './components/home/body/trabajos/trabajos.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { GaleriaComponent } from './components/home/body/galeria/galeria.compone
     ContactoComponent,
     WhatsappComponent,
     GaleriaComponent,
+    TrabajosComponent,
   ],
   imports: [
     BrowserModule,
