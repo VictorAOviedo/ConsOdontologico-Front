@@ -27,7 +27,6 @@
 @media (max-width: 425px) {
     .container-fluid {
         width: 70%;
-        margin-top: 16%;
         margin-bottom: 16%;
     }
 }
