@@ -1,11 +1,12 @@
 .container-fluid {
-    background-image: url('../../../../../assets/banner2.jpg');
+    background-image: url('../../../../../assets/ban04.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     display: grid;
     align-items: center;
+    overflow: hidden;
 }
 
 .texto {

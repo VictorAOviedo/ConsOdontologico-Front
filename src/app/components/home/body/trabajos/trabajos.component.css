@@ -18,6 +18,20 @@
     width: 40%;
 }
 
+.carousel-control-prev {
+    transform: translate(-2rem);
+    color: black;
+    scale: 2;
+    padding-left: 2rem;
+}
+
+.carousel-control-next {
+    transform: translate(2rem);
+    color: black;
+    scale: 2;
+    padding-right: 2rem;
+}
+
 @media (max-width: 768px) {
     .container-fluid {
         width: 45%;
@@ -28,5 +42,21 @@
     .container-fluid {
         width: 70%;
         margin-bottom: 16%;
+    }
+}
+
+@media (min-width: 1023px) {
+    .carousel-control-prev {
+        transform: translate(-4rem);
+        color: black;
+        scale: 2;
+        padding-left: 2rem;
+    }
+
+    .carousel-control-next {
+        transform: translate(4rem);
+        color: black;
+        scale: 2;
+        padding-right: 2rem;
     }
 }
